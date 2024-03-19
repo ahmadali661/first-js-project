@@ -5,6 +5,14 @@
 
 // let fullName = firstName + " " + lastName
 // console.log(fullName)
+document.getElementById("btm").onclick = function () {
+    let name = ""
+    document.getElementById("statement").innerHTML = name;
+}
+document.getElementById("btr").onclick = function () {
+    let name = ""
+    document.getElementById("output").innerHTML = name;
+}
 
 document.getElementById("alertString").onclick = function () {
     let fullName = "Ahmad Malik"
